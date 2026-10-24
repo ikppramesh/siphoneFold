@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Two glass panels meeting at a hinge -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#CCFFFFFF" android:pathData="M30,34 L52,38 L52,74 L30,78 Z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M56,38 L78,34 L78,78 L56,74 Z" />
+</vector>
