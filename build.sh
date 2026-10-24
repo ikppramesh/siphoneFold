@@ -12,7 +12,7 @@ $BT/aapt2 link -I $JAR --manifest AndroidManifest.xml --java build/gen \
     -o build/base.apk build/res/*.flat
 javac --release 17 -classpath $JAR -d build/classes \
     $(find src build/gen -name '*.java')
-$BT/d8 --min-api 31 --lib $JAR --output build $(find build/classes -name '*.class')
+$BT/d8 --min-api 33 --lib $JAR --output build $(find build/classes -name '*.class')
 cp build/base.apk build/unsigned.apk
 (cd build && zip -q unsigned.apk classes.dex)
 $BT/zipalign -f 4 build/unsigned.apk build/aligned.apk

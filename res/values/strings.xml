@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="service_label">Frost Fold animation</string>
+    <string name="service_description">Plays a frosted-glass fold animation when you open or close the phone. It takes a screenshot of the screen as a fold starts and keeps it only in memory, to draw the effect. Nothing is saved or sent anywhere; the app has no internet access.</string>
+</resources>

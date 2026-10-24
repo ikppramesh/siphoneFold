@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Needs no accessibility events: only screenshots and an overlay window. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/service_description"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityEventTypes="typeAnnouncement"
+    android:canTakeScreenshot="true"
+    android:notificationTimeout="1000"
+    android:settingsActivity="com.rameshinampudi.frostfold.MainActivity" />
